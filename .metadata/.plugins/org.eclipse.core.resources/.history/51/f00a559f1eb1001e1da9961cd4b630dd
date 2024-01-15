@@ -1,0 +1,6 @@
+package com.rubypaper.view;
+
+@Controller
+public class BoardController {
+
+}

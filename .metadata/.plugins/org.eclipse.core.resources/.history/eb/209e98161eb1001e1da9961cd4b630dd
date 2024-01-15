@@ -1,0 +1,7 @@
+package com.rubypaper.board;
+
+import java.util.List;
+
+public interface BoardDao {
+	List<BoardVo> getBoardList();
+}

@@ -1,0 +1,6 @@
+package com.rubypaper.board;
+
+
+public interface BoardDao {
+
+}

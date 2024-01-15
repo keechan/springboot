@@ -1,0 +1,9 @@
+package com.rubypaper.view;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class BoardController {
+	@Autowired
+	private BooarServiceImpl service;
+}

@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@taglib  uri="http://java.sun.com/jstl/core_rt"  prefix="c" %>     
+ 
+<style>
+table{
+ width:800px;
+}
+.td1 {
+ text-align : center; 
+}
+</style>
+
+<section>
+<br>
+<div align="center">
+<br>
+	<tr>
+	<td>seq</td><td>title</td><td>writer</td><td>regdate</td><td>cnt</td>
+	</tr>
+<table>
+<c:forEach items="${li}" var="${m}" varStatus="status">
+	<tr>
+	<td>${seq }</td><td>${title }</td><td>${writer }</td><td>${regdate }</td><td>${cnt }</td>
+	</tr>	
+</c:forEach>
+</table>
+
+</div>
+<br/>
+</section>

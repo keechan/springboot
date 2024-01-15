@@ -1,0 +1,20 @@
+package com.rubypaper.view;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.rubypaper.board.BoardServiceImpl;
+
+@Controller
+public class BoardController {
+	@Autowired
+	private BoardServiceImpl service;
+	
+	@RequestMapping("getBoardList.do")
+	String getBoardList(Model model) {
+		model.addAttribute(model);
+		return null;
+	}
+}

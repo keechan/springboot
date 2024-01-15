@@ -1,0 +1,9 @@
+package com.rubypaper.board;
+
+@Data
+public interface BoardDao {
+	private String seq;
+	private String title;
+	private String writer;
+	private String content;
+}
